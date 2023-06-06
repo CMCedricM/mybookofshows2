@@ -5,14 +5,14 @@ import Link from "next/link";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <div className="grid h-screen w-screen grid-rows-3 bg-gradient-to-b from-deep-purple to-deep-green text-white">
-      <div className="h-[10vh] p-5">
+    <div className="flex h-screen w-screen flex-col gap-2 bg-gradient-to-b from-deep-purple to-[#003c00] px-7 text-white">
+      <div className="w-full">
         <MyHeader></MyHeader>
       </div>
-      <div className="row-span-2">
+      <div className="h-full w-full grow ">
         <Component {...pageProps} />
       </div>
-      <div className="w-full pb-2">
+      <div className="w-full grow pb-2">
         <p className="text-center">
           <a
             href="https://cmcedricm.netlify.app/"

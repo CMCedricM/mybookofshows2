@@ -1,11 +1,10 @@
 const MyHeader = () => {
   return (
-    <div className="grid h-full w-full grid-cols-3 items-center gap-2 rounded-md border-2 md:p-3">
-      <div className="w-[40%]"></div>
-      <h1 className="text-center text-lg font-medium md:text-xl">
+    <div className="mt-2 flex w-full flex-row items-center justify-center gap-4 rounded-md bg-blur-green py-2 drop-shadow-lg backdrop-blur-sm">
+      <h1 className="grow text-center text-lg font-medium md:text-xl">
         My Book Of Shows
       </h1>
-      <div className="pr-2 text-right">User</div>
+      <div className="pr-4 text-right">User</div>
     </div>
   );
 };
