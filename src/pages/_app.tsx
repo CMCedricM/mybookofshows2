@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <div className="flex h-screen w-screen flex-col gap-2 bg-gradient-to-b from-deep-purple to-[#003c00] px-7 text-white">
+    <div className="flex h-screen w-screen flex-col gap-3 bg-gradient-to-b from-deep-purple to-[#003c00] px-7 text-white">
       <div className="w-full">
         <MyHeader></MyHeader>
       </div>
